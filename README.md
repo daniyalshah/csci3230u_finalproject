@@ -1,2 +1,4 @@
-Mustafa Al-Azzawe - 100617392
-Daniyal Syed Shah - 100622173
+# CSCI3230u Final Project - 
+
+- _Mustafa Al-Azzawe - 100617392_
+- _Daniyal Syed Shah - 100622173_
