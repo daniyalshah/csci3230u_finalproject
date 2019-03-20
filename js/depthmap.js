@@ -1,4 +1,4 @@
-w = window.innerWidth, h = window.innerHeight;
+w = 500, h = 300;
 var renderer = new PIXI.WebGLRenderer(w, h);
 var cOutput = document.getElementById('wrap');
 cOutput.appendChild(renderer.view);
@@ -41,8 +41,8 @@ function startMagic() {
 
 function animate() {
 //console.log('aaaaaaaaaa');
-  f.scale.x = (window.innerWidth/2 - mousex) / 80;
-  f.scale.y = (window.innerHeight/2 - mousey) / 80;
+  f.scale.x = (window.innerWidth/2 - mousex) / 98;
+  f.scale.y = (window.innerHeight/2 - mousey) / 98;
   fg.addChild(d);
   d.renderable=false;
 
