@@ -4,7 +4,7 @@ $(document).ready(function() {
   function loadImage() {
     var image_url = 'https://drive.google.com/uc?id=';
 
-    $.getJSON('testing.json', function(data) {
+    $.getJSON('images.json', function(data) {
       var names = [];
       var id = [];
       var drive = [];
