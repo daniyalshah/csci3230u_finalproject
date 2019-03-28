@@ -7,7 +7,7 @@ Mustafa Al-Azzawe - 100617392
 
 Daniyal Syed Shah - 100622173
 
-###Usage
+### Usage:
 1. git clone https://github.com/mustafalazzawe/csci3230u_finalproject.git
 2. npm install
 3. nodemon about.js
