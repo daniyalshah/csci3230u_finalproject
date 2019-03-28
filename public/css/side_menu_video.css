@@ -1,0 +1,77 @@
+/* design for the menu on non main pages - video */
+header {
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: left;
+  z-index: 99999999999;
+  position: fixed;
+  top: 0rem;
+  width: 100%;
+}
+.logo img{
+  text-align: left;
+  height: auto;
+  width: auto;
+  max-width: 13.873vw;
+  max-height: 8.70vh;
+  position: fixed;
+  z-index: 1;
+  top: 0rem;
+}
+.mainmenu a{
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.mh-menu{
+  position: absolute;
+  width: 17.341vw;
+  height: 22.254vh;
+	margin: 20px auto;
+  left: -5.50vw;
+  top: 4.10vh;
+}
+.mh-menu li{
+  width: 17.341vw;
+}
+.mh-menu li a{
+	display: block;
+  width: 16.185vw;
+	padding: 0px 10px;
+	text-align: right;
+	position: relative;
+	z-index: 10;
+	height: 70px;
+	border-right: 1px solid #ddd;
+}
+.mh-menu li a span{
+	display:block;
+}
+.mh-menu li a span:first-child{
+	font-weight: 50;
+	font-size: 0.809vw;
+	color: #ddd;
+	padding-top: 10px;
+}
+.mh-menu li a span:nth-child(2){
+	font-weight: 50;
+	font-size: 1.503vw;
+  color: #f1fffb;
+	-webkit-transition: color 0.2s linear;
+	transition: color 0.2s linear;
+}
+.mh-menu li:nth-child(1):hover span:nth-child(2){
+	color: lightblue;
+}
+.mh-menu li:nth-child(2):hover span:nth-child(2){
+	color: #c3d243;
+}
+.mh-menu li:nth-child(3):hover span:nth-child(2){
+	color: #ffadfd;
+}
+.mh-menu li:nth-child(4):hover span:nth-child(2){
+	color: lightgreen;
+}
+.mh-menu li:nth-child(5):hover span:nth-child(2){
+	color: #f984e5;
+}

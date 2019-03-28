@@ -1,0 +1,71 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title about
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    link(rel='shortcut icon', type='image/jpeg', href='images/logotesting/favicon.jpeg')
+    link(href='https://fonts.googleapis.com/css?family=Nunito+Sans:300,400', rel='stylesheet')
+    link(rel='stylesheet', href='css/side_menu.css')
+    link(rel='stylesheet', href='css/side_style.css')
+    link(rel='stylesheet', href='css/about.css')
+    script(type='text/javascript', src='http://code.jquery.com/jquery-latest.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/utils/Draggable.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.5.0/pixi.min.js')
+    script(src='https://code.jquery.com/ui/1.12.1/jquery-ui.js')
+  body
+    .container
+      header
+        //- MENU
+        nav.mainmenu
+          ul.mh-menu
+            li
+              a.menu_port(href='/portraits')
+                span photo
+                span portraits
+            li
+              a.menu_onemin(href='/oneminute')
+                span video
+                span one minute reel
+            li
+              a.menu_birthday(href='/birthdayedit')
+                span video
+                span birthday edit
+            li
+              a.menu_snow(href='/automotive')
+                span photo
+                span automotive
+            li
+              a.menu_about(href='about')
+                span contact
+                span about
+          nav
+            .logo
+              a(href='/')
+                img.logo1(src='images/logotesting/test1.gif')    
+      #aboutMe
+        h2 About me
+        p Hi! Im a filmmaker & a photographer based in toronto. 
+        p If my services of filming/editing/color grading can be handy to you,
+        p shoot me a message! 
+      //- CONTACT FORM
+      form#contactForm(action='/aboutProcess',
+                       method='post',
+                       class='form')
+        p Contact
+        p
+          label(for='username') Name
+          input#user-name(type='text', name='username', minlength='3', placeholder='(enter name)', required='')
+        p
+          label(for='email') Email
+          input#email(type='text', name='email', placeholder='(enter email)', required='')
+        p
+          | Leave a
+          label(for='usermsg')  message
+        p
+          textarea#user-msg.expanding(name='usermsg', placeholder='(enter a message)', required='')
+        p
+          button#submitBtn(type='submit', name='submitBtn') Send
+        div(class='errorMessage')= errorMessage
+        block content

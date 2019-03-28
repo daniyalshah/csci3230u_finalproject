@@ -1,0 +1,27 @@
+{
+  "name": "csci3230u_finalproject",
+  "version": "1.0.0",
+  "description": "------------------",
+  "main": "about.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafalazzawe/csci3230u_finalproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustafalazzawe/csci3230u_finalproject/issues"
+  },
+  "homepage": "https://github.com/mustafalazzawe/csci3230u_finalproject#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.20",
+    "pug": "^2.0.3",
+    "uuid": "^3.3.2"
+  }
+}

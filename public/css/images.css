@@ -1,0 +1,228 @@
+body {
+    background: black;
+    text-align: center;
+}
+
+.logo img{
+  height: auto;
+  width: auto;
+  max-width: 17.341vw;
+  max-height: 16.287vh;
+  position: relative;
+  z-index: -91;
+  left: 490px;
+}
+
+/* image positioning on the main page */
+#images img {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  height: auto;
+  width: auto;
+  position: relative;
+  z-index: auto;
+  -webkit-transition: opacity 1s ease-out;
+}
+
+#images .pic1 {
+  max-width: 52.790vw;
+  max-height: 65.146vh;
+  position: relative;
+  right: 360px;
+  bottom: 200px;
+}
+
+#images .pic2 {
+  max-width: 37.707vw;
+  max-height: 81.433vh;
+  position: relative;
+  bottom: 400px;
+}
+
+#images .pic3 {
+  max-width: 37.707vw;
+  max-height: 81.433vh;
+  position: relative;
+  bottom: 500px;
+  right: 650px
+}
+
+#images .pic4 {
+  max-width: 98.0392vw;
+  max-height: 81.433vh;
+  position: relative;
+  bottom: 690px;
+  right: 200px;
+}
+
+#images .pic5 {
+  max-width: 2050px;
+  max-height: 1100px;
+  position: relative;
+  bottom: 1510px;
+  left: 560px
+}
+
+#images .pic6 {
+  opacity: 0.8;
+  z-index: -1;
+  max-width: 700px;
+  max-height: 600px;
+  position: relative;
+  bottom: 1400px;
+  left: 300px;
+}
+
+#images .pic7 {
+  opacity: 0.0;
+  z-index: -1;
+  max-width: 700px;
+  max-height: 600px;
+  position: relative;
+  bottom: 1750px;
+  right: 640px;
+}
+
+#images .pic8 {
+  opacity: 0.0;
+  z-index: -1;
+  max-width: 700px;
+  max-height: 500px;
+  position: relative;
+  bottom: 2590px;
+  right: 120px;
+}
+
+#images .pic9 {
+  opacity: 0.0;
+  z-index: -11111111;
+  max-width: 500px;
+  max-height: 500px;
+  position: relative;
+  bottom: 2750px;
+  left: 550px;
+}
+
+#images .pic10 {
+  opacity: 0.0;
+  z-index: -11111111;
+  max-width: 600px;
+  max-height: 600px;
+  position: relative;
+  bottom: 2750px;
+  right: 400px;
+}
+
+#images .pic11 {
+  opacity: 0.0;
+  z-index: -11111111;
+  max-width: 700px;
+  max-height: 700px;
+  position: relative;
+  bottom: 3550px;
+  right: 200px;
+}
+
+#images .pic12 {
+  opacity: 0.0;
+  z-index: -11111111;
+  max-width: 500px;
+  max-height: 500px;
+  position: relative;
+  bottom: 3430px;
+  left: 300px;
+}
+
+#images .pic13 {
+  max-width: 500px;
+  max-height: 400px;
+  position: relative;
+  bottom: 3550px;
+  left: 180px;
+}
+
+#images .pic14 {
+  max-width: 450px;
+  max-height: 450px;
+  position: relative;
+  bottom: 3850px;
+  right: 670px;
+}
+
+#images .pic15 {
+  max-width: 400px;
+  max-height: 600px;
+  position: relative;
+  bottom: 4100px;
+  right: 200px;
+}
+
+#images .pic16 {
+  z-index: 1;
+  max-width: 500px;
+  max-height: 600px;
+  position: relative;
+  bottom: 4450px;
+  left: 300px;
+}
+
+#images .pic17 {
+  max-width: 400px;
+  max-height: 600px;
+  position: relative;
+  bottom: 4650px;
+  right: 650px;
+}
+
+#images .pic18 {
+  z-index: -9999;
+  opacity: 0;
+  max-width: 600px;
+  max-height: 600px;
+  position: relative;
+  bottom: 6060px;
+  right: 600px;
+}
+
+#images .pic19 {
+  z-index: -999999;
+  opacity: 0.0;
+  max-width: 1600px;
+  max-height: 1600px;
+  position: relative;
+  bottom: 6390px;
+  left: 260px;
+}
+
+#images .pic20 {
+  max-width: 1600px;
+  max-height: 1600px;
+  position: relative;
+  bottom: 6290px;
+  left: 660px;
+}
+
+#images .pic21 {
+  max-width: 400px;
+  max-height: 400px;
+  position: relative;
+  bottom: 7010px;
+  left: 660px;
+}
+
+#images .pic22 {
+  z-index: -1111;
+  opacity: 0.0;
+  max-width: 400px;
+  max-height: 400px;
+  position: relative;
+  bottom: 7720px;
+  left: 220px;
+}
+
+#images img:hover {
+  z-index:555555 !important;
+  -webkit-transition: opacity 0.6s ease-in-out;
+  opacity: 1.0;
+  filter: alpha(opacity=100)
+}
