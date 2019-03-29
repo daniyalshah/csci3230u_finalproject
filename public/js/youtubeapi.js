@@ -1,17 +1,17 @@
-// video card for video pages
+// video for pages using youtube api
 var player,
-		card  = document.querySelector( '.card' ),
-		play  = document.querySelector( '.card-play' ),
-		video = document.querySelector( '.card-video' );
+		pic  = document.querySelector( '.pic' ),
+		play  = document.querySelector( '.pic-play' ),
+		video = document.querySelector( '.pic-video' );
 
 
 // bright grey effect
-card.onmousemove = function (e) {
-	const x = e.pageX - card.offsetLeft;
-	const y = e.pageY - card.offsetTop;
+pic.onmousemove = function (e) {
+	const x = e.pageX - pic.offsetLeft;
+	const y = e.pageY - pic.offsetTop;
 
-	card.style.setProperty( '--x', x + 'px' );
-	card.style.setProperty( '--y', y + 'px' );
+	pic.style.setProperty( '--x', x + 'px' );
+	pic.style.setProperty( '--y', y + 'px' );
 }
 
 
@@ -28,7 +28,7 @@ function onYouTubePlayerAPIReady() {
 // when player is ready
 function onPlayerReady(event) {
 	play.addEventListener( 'click', function() {
-		card.classList.add( 'video-is-open' );
+		pic.classList.add( 'video-is-open' );
 		setTimeout(function() {
 			video.style.display = 'block';
 			player.playVideo();

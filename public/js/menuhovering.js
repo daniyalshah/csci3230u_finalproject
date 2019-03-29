@@ -4,7 +4,7 @@ $(document).ready(function() {
         $(".mainmenu").hide();
   });
 
-  $(".card").hover(function(){
+  $(".pic").hover(function(){
         $(".mainmenu").hide();
   });
 
